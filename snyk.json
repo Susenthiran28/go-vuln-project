@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "panic: Can't resolve root package at D:\\Netkathir\\Projects-for-learning\\scans-test\\go-language-repos\\go-vuln-project.\n\tIs $GOPATH defined correctly?\n\ngoroutine 1 [running]:\nmain.main()\n\tC:/Users/DELL/AppData/Local/Temp/tmp-11428-xlBt0KvOB6ux/resolve-deps.go:40 +0x645\nexit status 2\n",
+  "path": "D:\\Netkathir\\Projects-for-learning\\scans-test\\go-language-repos\\go-vuln-project"
+}
