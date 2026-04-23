@@ -30,7 +30,6 @@ import (
 	_ "github.com/sergi/go-diff/diffmatchpatch"
 	_ "github.com/shurcooL/sanitized_anchor_name"
 	_ "github.com/src-d/gcfg"
-	_ "github.com/unknwon/com"
 	_ "github.com/unknwon/paginater"
 	_ "github.com/xanzy/ssh-agent"
 	_ "golang.org/x/net/html"

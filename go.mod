@@ -11,7 +11,7 @@ require (
 	github.com/OneOfOne/xxhash v1.2.5 // indirect
 	github.com/PuerkitoBio/goquery v1.5.0
 	github.com/RoaringBitmap/roaring v0.4.7
-	github.com/Unknwon/com v0.0.0-20190321035513-0fed4efef755
+	github.com/Unknwon/com v1.0.1
 	github.com/Unknwon/i18n v0.0.0-20190805065654-5c6446a380b6
 	github.com/apache/thrift v0.12.0
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
@@ -123,7 +123,6 @@ require (
 	github.com/tecbot/gorocksdb v0.0.0-20181010114359-8752a9433481 // indirect
 	github.com/tinylib/msgp v0.0.0-20180516164116-c8cf64dff200 // indirect
 	github.com/tstranex/u2f v1.0.0
-	github.com/unknwon/com v1.0.1
 	github.com/urfave/cli v1.22.1
 	github.com/willf/bitset v0.0.0-20180426185212-8ce1146b8621
 	github.com/xanzy/ssh-agent v0.2.1
@@ -158,7 +157,6 @@ require (
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/Masterminds/vcs v1.13.0
-	github.com/astaxie/beego v1.11.1
 	github.com/aws/aws-lambda-go v1.13.3
 	github.com/aws/aws-sdk-go v1.34.0
 	github.com/aymerick/raymond v2.0.2+incompatible
@@ -186,6 +184,8 @@ require (
 	golang.org/x/text v0.3.2
 	gopkg.in/yaml.v2 v2.2.8
 )
+
+replace github.com/Unknwon/com => github.com/unknwon/com v1.0.1
 
 replace github.com/Unknwon/i18n => github.com/unknwon/i18n v0.0.0-20210904045753-ff3a8617e361
 
