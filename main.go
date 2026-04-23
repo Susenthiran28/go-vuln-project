@@ -30,6 +30,7 @@ var validConfig = []byte(`{
 }`)
 
 func main(){
+	UseVulnerableDeps()
 	h := md4.New()
 	data := "These pretzels are making me thirsty."
 	io.WriteString(h, data)
