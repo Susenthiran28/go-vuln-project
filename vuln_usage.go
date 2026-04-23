@@ -14,7 +14,6 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/Masterminds/vcs"
-	"github.com/astaxie/beego"
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
@@ -54,7 +53,6 @@ import (
 var (
 	_ = toml.Decode
 	_ = vcs.NewRepo
-	_ = beego.AppName
 	_ = lambda.Start
 	_ = aws.String
 	_ = session.NewSession
@@ -101,6 +99,5 @@ func UseVulnerableDeps() {
 	_ = logrus.StandardLogger()
 	_ = gjson.Parse("{}")
 	_ = raymond.Parse
-	_ = beego.AppName
 	fmt.Println("[vuln_usage] intentionally-vulnerable dependency set loaded")
 }
